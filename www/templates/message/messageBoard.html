@@ -1,0 +1,10 @@
+<ion-view view-title="公告消息">
+  <ion-content>
+
+    <li ng-repeat=" item in data">
+      <a ui-sref="tab.taskBoardDetail({id: item.id})">{{ item.title}}</a>
+      <a ng-hide="true">{{ item.id}}</a>
+    </li>
+  </ion-content>.
+</ion-view>
+
